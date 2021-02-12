@@ -1,0 +1,89 @@
+
+
+div{
+box-sizing: border-box;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color:lightblue
+}
+
+header{
+  width: 100%;
+  margin: 0%;
+  border-width: 5px;
+  border-left: 0;
+  border-style: solid;
+  height: 175px;
+  background-image: url(/Final-Project/CSS/Img/golf_Tees.jfif);
+  opacity: 0.8;
+}
+
+.center{
+  border: 1px solid black;
+  text-align: center;
+  background-color: white;
+  margin: 1%;
+  font-family:cursive;
+  font-size:x-large;
+  overflow-x: hidden;
+  position: absolute;
+  align-content: center;
+  border-radius: 55px;
+  margin-left: 10%;
+}
+a:link{
+  color: red;
+}
+a:hover{
+  color: red;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 35px;
+  padding-left: 25px; 
+  padding-right: 25px;
+  margin: 10px;
+}
+
+.grid-container , a > div {
+  text-align: center;
+  padding: 10px;
+  font-size: 60px;
+  font-style:oblique;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.grid-container > a >.item1{
+  margin-top: 40%;
+  padding-top: 2%;
+}
+
+
+
+.grid-container > a > .item2{
+  margin-top: 40%;
+  padding-top: 2%;
+}
+
+.item8 {
+   grid-area: 1 / 2 / 5 /6 ;
+   
+ } 
+
+.footer{
+  font-size: 50px;
+  height: 150px;
+  text-align: center;
+}
+
+i { 
+   padding: 10px;
+  color: rgb(51, 77, 77);
+  text-shadow:2px 4px 6px cyan; 
+}
+
