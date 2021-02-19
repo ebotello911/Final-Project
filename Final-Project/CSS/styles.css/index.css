@@ -5,7 +5,7 @@ box-sizing: border-box;
 }
 
 html{ 
-  background: url(/Final-Project/CSS/Img/back1.jpg) no-repeat center center fixed; 
+  background: url(/Final-Project/Final-Project/CSS/Img/back1.jpg) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
